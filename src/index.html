@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta lang="de" charset="utf-8" />
+  <title>Stierlin Fotografie</title>
+</head>
+<header class="site-header sticky-top py-1">
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/src/index.html">Stierlin Fotografie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#entscheidungsmatrixe">Entscheidungsmatrix</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#loremIpsum">Lorep Ipsum</a>
+          </li>
+          <li class="nav-item" href="">
+            <a class="nav-link" href="#fotos">Fotos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+<body>
+
+  <div id="landingPageCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#landingPageCarousel" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#landingPageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#landingPageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/2020-12-20-051054214.jpg" class="d-block w-100"
+          alt="The sun hidden behind the clouds over the lake of Zürich.">
+      </div>
+      <div class="carousel-item">
+        <img src="images/2020-11-22-054724233.jpg" class="d-block w-100"
+          alt="A beautiful sunset seen from the Badi Tiefenbrunnen.">
+      </div>
+      <div class="carousel-item">
+        <img src="images/2020-12-20-050549336.jpg" class="d-block w-100" alt="A pretty lady.">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#landingPageCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#landingPageCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="entscheidungsmatrixe" class="container-xxl">
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Lorem Ipsum</h1>
+          <p class="lead text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur adipiscing. Molestie a iaculis
+            at erat pellentesque adipiscing. Enim nulla aliquet porttitor lacus luctus. Vitae nunc sed velit dignissim
+            sodales ut.</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th></th>
+          <th><i>Gewichtung</i></th>
+          <th>Stadt Zürich</th>
+          <th>Winterthur</th>
+          <th>Zürcher Oberland</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Distanz von mein Wohnort</td>
+          <td>2</td>
+          <td>5</td>
+          <td>3</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Grösse des Gebiets</td>
+          <td>1</td>
+          <td>4</td>
+          <td>3</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Anzahl Menschen</td>
+          <td>1</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Vielfaltigkeit</td>
+          <td>1</td>
+          <td>5</td>
+          <td>4</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>Gesamt</td>
+          <td></td>
+          <td><b>22</b></td>
+          <td>17</td>
+          <td>19</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="FotosMitBeschreibung" class="container-xxl">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="images/2020-11-01-055100769.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/2020-11-01-055100769.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/2020-11-01-055100769.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loremIpsum" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 fw-normal">Lorem Ipsum</h1>
+      <p class="lead fw-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ipsum dolor sit amet consectetur adipiscing. Molestie a iaculis
+        at erat pellentesque adipiscing. Enim nulla aliquet porttitor lacus luctus. Vitae nunc sed velit dignissim
+        sodales ut.</p>
+      <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+  <div id="fotos" class="container-xl" style="padding-bottom: 10px">
+    <section class="pt-100 pb-70 bg-light content_23">
+      <div class="container px-xl-0">
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <img src="images/svg/IMG_0658_2.svg"  alt=""
+              class="img-fluid radius10 mb-30" style="padding-bottom: 10px">
+            <img src="images/svg/IMG_0666.svg" alt=""
+              class="img-fluid radius10 mb-30" style="padding-bottom: 10px">
+          </div>
+          <div class="col-sm-4">
+            <img src="images/svg/IMG_0666.svg"  alt=""
+              class="img-fluid radius10 mb-30" style="padding-bottom: 10px">
+            <img src="images/svg/IMG_0658_2.svg"  alt=""
+              class="img-fluid radius10 mb-30" style="padding-bottom: 10px">
+          </div>
+          <div class="col-sm-4">
+            <img src="images/svg/IMG_0658_2.svg"  alt=""
+              class="img-fluid radius10 mb-30" style="padding-bottom: 10px">
+            <img src="images/svg/IMG_0666.svg"  alt=""
+              class="img-fluid radius10" style="padding-bottom: 10px">
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Scripts in order for Bootstrap to work-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container">
+    <span class="text-muted">© 2021 <b> Stierlin Matthias </b> </span>
+  </div>
+</footer>
+
+</html>
